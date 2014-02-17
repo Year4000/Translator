@@ -1,0 +1,4 @@
+name: Translator
+main: net.year4000.translator.Translator
+version: ${pom.version}
+author: ewized
