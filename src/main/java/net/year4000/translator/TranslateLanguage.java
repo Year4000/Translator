@@ -12,7 +12,10 @@ public class TranslateLanguage {
 
     public String translate(String message, Language language) {
         try {
-            String translated =  Translate.execute(Translator.replaceColor(message), language);
+            String translated =  Translate.execute(
+                    Translator.replaceColor(message),
+                    language == null ? Language.valueOf(new Config().getDefaultLang()) : language
+            );
             return Translator.formatColor(translated);
         }
         catch (Exception e) {
