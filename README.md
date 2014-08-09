@@ -1,5 +1,8 @@
 Translator
 ======
+
+> This project is no longer maintained and was an experiment
+
 This plugin was made for the servers at [Year4000]. Translator create an API, to
 allow the ease of translation of words, in to any language.
 
